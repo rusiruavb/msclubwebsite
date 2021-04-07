@@ -1,5 +1,5 @@
 import React from 'react';
-import WhatWeDoSection from './WhatWeDoSection/WhatWeDoSection';
+import WhatWeDoSection from '../../modules/AboutUsModules/WhatWeDoSection/WhatWeDoSection';
 
 const AboutUs = () => {
   return (
