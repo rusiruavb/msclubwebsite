@@ -2,19 +2,19 @@
   "data": [
     {
       "icon": "fas fa-users fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization. 1"
+      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
     },
     {
       "icon": "fas fa-calendar fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization. 2"
+      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
     },
     {
       "icon": "fas fa-fist-raised fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization. 3"
+      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
     },
     {
       "icon": "fas fa-users fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization. 4"
+      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
     }
   ]
 }
