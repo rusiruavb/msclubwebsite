@@ -5,11 +5,9 @@ import AboutUs from '../pages/AboutUsPage/AboutUs';
 const AppRoutes = () => (
   <div>
     <Router>
-      <>
-        <Switch>
-          <Route path="/about" component={AboutUs} exact />
-        </Switch>
-      </>
+      <Switch>
+        <Route path="/about" component={AboutUs} exact />
+      </Switch>
     </Router>
   </div>
 );
