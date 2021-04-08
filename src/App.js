@@ -1,13 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import AppRoutes from "./routes/AppRoutes";
+import React from 'react';
+import './App.css';
+import AppRoutes from './routes/AppRoutes';
 
-function App() {
-  return (
-    <div>
-      <AppRoutes/>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <AppRoutes />
+  </div>
+);
 
 export default App;
