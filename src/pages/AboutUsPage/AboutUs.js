@@ -1,12 +1,10 @@
 import React from 'react';
 import WhatWeDoSection from '../../modules/AboutUsModules/WhatWeDoSection/WhatWeDoSection';
 
-const AboutUs = () => {
-  return (
-    <div>
-      <WhatWeDoSection/>
-    </div>
-  )
-}
+const AboutUs = () => (
+  <div>
+    <WhatWeDoSection />
+  </div>
+);
 
 export default AboutUs;
