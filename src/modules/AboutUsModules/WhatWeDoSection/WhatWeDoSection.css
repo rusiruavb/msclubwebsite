@@ -1,11 +1,13 @@
+:root {
+  --light: #ffffff;
+  --light-icon-color: #2cb93b;
+  --light-shadow-color: #6ec476;
+}
+
 /* Basic Styling */
 
 .fas {
-  color: #2cb93b;
-}
-
-.body {
-  font-family: "Consolas";
+  color: var(--light-icon-color);
 }
 
 .title {
@@ -21,14 +23,13 @@
 .card {
   border-radius: 10px;
   text-align: center;
-  background: white;
-  box-shadow: 0px 0px 0px #6ec476;
+  background: var(--light);
+  box-shadow: 0px 0px 0px var(--light-shadow-color);
   -webkit-transition: box-shadow 0.3s ease-out;
-  box-shadow: px 10px grey;
 }
 
 .card:hover {
-  box-shadow: 8px 10px #7aca82;
+  box-shadow: 8px 10px var(--light-shadow-color);
   -webkit-transition: box-shadow 0.2s ease-in;
 }
 
