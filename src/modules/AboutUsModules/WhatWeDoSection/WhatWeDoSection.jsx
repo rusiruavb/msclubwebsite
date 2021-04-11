@@ -1,7 +1,7 @@
 import React from 'react';
 import './WhatWeDoSection.css';
 import PropTypes from 'prop-types';
-import items from './WhatWeDoSection.json';
+import items from './WhatWeDoSectionData.json';
 
 const Card = ({ icon, description }) => (
   <div className="card">
