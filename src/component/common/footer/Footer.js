@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import logo from '../../../assets/images/logo/Ms-Club.jpg';
 
 const footer = () => (
@@ -49,7 +47,7 @@ const footer = () => (
             <div className="input-group textFieldDiv">
               <input type="text" className="form-control emailAddress" placeholder="Email Address" />
               <span className="input-group-text icon">
-                <FontAwesomeIcon className="emailIcon" icon={faEnvelope} transform={{ rotate: -10 }} />
+                <i className="far fa-envelope" />
               </span>
             </div>
           </div>
