@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/build
 # Only exists if Bazel was run
 /bazel-out
 
@@ -33,6 +34,8 @@ speed-measure-plugin.json
 .history/*
 
 # misc
+/.eslintcache
+.eslintcache
 /.sass-cache
 /connect.lock
 /coverage
@@ -41,6 +44,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+/.firebase
 
 # System Files
 .DS_Store
