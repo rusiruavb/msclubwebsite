@@ -7,9 +7,9 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 400px;
-    left: 0px;
-    top: 0px;
+    height: 25rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
   }
@@ -19,23 +19,23 @@
   }
 
   .overlay {
-    height: 404px;
+    height: 25.25rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 4.375rem;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 0.938rem;
     text-align: justify;
   }
 }
@@ -45,9 +45,9 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 400px;
-    left: 0px;
-    top: 0px;
+    height: 25rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
   }
@@ -57,25 +57,25 @@
   }
 
   .overlay {
-    height: 400px;
+    height: 25rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 70px;
-    margin-left: 50px;
-    margin-top: 0px;
+    font-size: 4.375rem;
+    margin-left: 3.125rem;
+    margin-top: 0rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 22px;
-    margin-left: 50px;
+    font-size: 1.375rem;
+    margin-left: 3.125rem;
   }
 
   .header-img {
-    width: 350px;
-    margin-top: 20px;
+    width: 21.875rem;
+    margin-top: 1.25rem;
     display: none;
   }
 }
@@ -85,9 +85,9 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 300px;
-    left: 0px;
-    top: 0px;
+    height: 18.75rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 90%);
   }
@@ -97,26 +97,26 @@
   }
 
   .overlay {
-    height: 350px;
+    height: 21.875rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 4.375rem;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .header-img {
-    width: 350px;
-    margin-top: 20px;
+    width: 20.875rem;
+    margin-top: 1.25rem;
     display: none;
   }
 }
@@ -126,33 +126,33 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 500px;
-    left: 0px;
-    top: 0px;
+    height: 31.25rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
   }
 
   .overlay {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 60px;
-    margin-left: 50px;
-    margin-top: 30px;
+    font-size: 3.75rem;
+    margin-left: 3.125rem;
+    margin-top: 1.875rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 18px;
-    margin-left: 50px;
+    font-size: 1.125rem;
+    margin-left: 3.125rem;
   }
 
   .header-img {
-    width: 320px;
-    margin-top: 30px;
+    width: 20rem;
+    margin-top: 1.875rem;
     display: block;
   }
 }
@@ -162,32 +162,32 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 500px;
-    left: 0px;
-    top: 0px;
+    height: 31.25rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 72%, 0 90%);
   }
 
   .overlay {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 70px;
-    margin-top: 35px;
+    font-size: 4.375rem;
+    margin-top: 2.188rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 17px;
-    margin-left: 140px;
+    font-size: 0.875rem;
+    margin-left: 8.75rem;
   }
 
   .header-img {
-    width: 320px;
-    margin-left: 50px;
+    width: 20rem;
+    margin-left: 3.125rem;
     display: block;
   }
 }
@@ -197,34 +197,34 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 500px;
-    left: 0px;
-    top: 0px;
+    height: 31.25rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
   }
 
   .overlay {
-    height: 500px;
+    height: 31.25rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 92px;
-    margin-left: 0px;
-    margin-top: 35px;
+    font-size: 5.75rem;
+    margin-left: 0rem;
+    margin-top: 2.188rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 20px;
-    margin-left: 80px;
+    font-size: 1.25rem;
+    margin-left: 5rem;
     display: flex;
     justify-content: center;
   }
 
   .header-img {
-    width: 400px;
+    width: 25rem;
   }
 }
 
@@ -233,31 +233,31 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 580px;
-    left: 0px;
-    top: 0px;
+    height: 36.25rem;
+    left: 0rem;
+    top: 0rem;
     background: var(--light-background-color);
     clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
   }
 
   .overlay {
-    height: 620px;
+    height: 38.78rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 80px;
-    margin-top: 80px;
+    font-size: 5rem;
+    margin-top: 5rem;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 19px;
-    margin-left: 170px;
+    font-size: 1.188rem;
+    margin-left: 10.625rem;
   }
 
   .header-img {
-    width: 450px;
+    width: 28.125rem;
     display: block;
   }
 }
@@ -265,8 +265,8 @@
 @media (min-width: 1700px) {
   .header-content {
     font-weight: 400;
-    font-size: 19px;
-    margin-left: 280px;
+    font-size: 1.188rem;
+    margin-left: 17.5rem;
   }
 }
 
@@ -276,17 +276,18 @@ and (max-device-width: 768px)
 and (-webkit-min-device-pixel-ratio: 2)  {
 
   .hero-section-bg {
-    height: 400px;
+    height: 26rem;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 60px;
-    margin-left: 0px;
-    margin-top: 0px;
+    font-size: 3.75rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
   }
 
   .header-content{
     text-align: center;
+    font-size: 1.2rem;
   }
 }
