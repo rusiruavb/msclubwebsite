@@ -4,8 +4,6 @@
 
 /* Styling for breakpoints */
 
-
-
 @media (min-width: 300px) {
   .hero-section-bg {
     position: absolute;
@@ -248,16 +246,16 @@
     left: 0px;
     top: 0px;
     background: var(--light-background-color);
-    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 95%);
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
   }
 
   .overlay {
-    height: 580px;
+    height: 620px;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 80px;
     margin-top: 100px;
     display: flex;
     justify-content: left;
@@ -266,14 +264,14 @@
 
   .header-content {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 19px;
     margin-left: 235px;
     display: flex;
     justify-content: center;
   }
 
   .header-img {
-    width: 600px;
+    width: 450px;
     margin-left: 60px;
     display: block;
   }
@@ -288,7 +286,6 @@ and (-webkit-min-device-pixel-ratio: 2)  {
   .hero-section-bg {
     height: 350px;
   }
- 
 
   .header-title {
     font-weight: bolder;

@@ -19,7 +19,7 @@ const HeroSection = () => (
         </div>
       </div>
       <div className="col-md-6 header-img">
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-right">
           <img src={headerImage} alt="About Us header image" className="d-none d-sm-block header-img" />
         </div>
       </div>
