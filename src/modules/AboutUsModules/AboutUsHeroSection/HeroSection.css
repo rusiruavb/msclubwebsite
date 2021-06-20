@@ -2,8 +2,6 @@
   --light-background-color: #f6f5ff;
 }
 
-/* Styling for breakpoints */
-
 @media (min-width: 300px) {
   .hero-section-bg {
     position: absolute;
@@ -47,11 +45,11 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 600px;
+    height: 400px;
     left: 0px;
     top: 0px;
     background: var(--light-background-color);
-    clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 70%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
   }
 
   .row {
@@ -59,7 +57,7 @@
   }
 
   .overlay {
-    height: 604px;
+    height: 400px;
   }
 
   .header-title {
@@ -87,11 +85,11 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 600px;
+    height: 300px;
     left: 0px;
     top: 0px;
     background: var(--light-background-color);
-    clip-path: polygon(0 0, 100% 0%, 100% 40%, 0 50%);
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 90%);
   }
 
   .row {
@@ -99,7 +97,7 @@
   }
 
   .overlay {
-    height: 304px;
+    height: 350px;
   }
 
   .header-title {
@@ -124,20 +122,19 @@
 }
 
 @media (min-width: 768px) {
-  /* Device screen larger than 768px */
   .hero-section-bg {
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 600px;
+    height: 500px;
     left: 0px;
     top: 0px;
     background: var(--light-background-color);
-    clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 55%);
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
   }
 
   .overlay {
-    height: 404px;
+    height: 500px;
   }
 
   .header-title {
@@ -161,33 +158,31 @@
 }
 
 @media (min-width: 992px) {
-  /* Device screen larger than 992px */
   .hero-section-bg {
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 600px;
+    height: 500px;
     left: 0px;
     top: 0px;
     background: var(--light-background-color);
-    clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 55%);
+    clip-path: polygon(0 0, 100% 0%, 100% 72%, 0 90%);
   }
 
   .overlay {
-    height: 404px;
+    height: 500px;
   }
 
   .header-title {
     font-weight: bolder;
     font-size: 70px;
-    margin-left: 50px;
     margin-top: 35px;
   }
 
   .header-content {
     font-weight: 400;
-    font-size: 18px;
-    margin-left: 85px;
+    font-size: 17px;
+    margin-left: 140px;
   }
 
   .header-img {
@@ -198,7 +193,6 @@
 }
 
 @media (min-width: 1200px) {
-  /* Device screen larger than 1200px */
   .hero-section-bg {
     position: absolute;
     overflow: auto;
@@ -207,7 +201,7 @@
     left: 0px;
     top: 0px;
     background: var(--light-background-color);
-    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 95%);
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
   }
 
   .overlay {
@@ -224,20 +218,17 @@
   .header-content {
     font-weight: 400;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
     display: flex;
     justify-content: center;
   }
 
   .header-img {
-    width: 480px;
-    margin-left: 60px;
-    display: block;
+    width: 400px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* Device screen larger than 1400px */
   .hero-section-bg {
     position: absolute;
     overflow: auto;
@@ -256,27 +247,28 @@
   .header-title {
     font-weight: bolder;
     font-size: 80px;
-    margin-top: 100px;
-    display: flex;
-    justify-content: left;
-    margin-left: 250px;
+    margin-top: 80px;
   }
 
   .header-content {
     font-weight: 400;
     font-size: 19px;
-    margin-left: 235px;
-    display: flex;
-    justify-content: center;
+    margin-left: 170px;
   }
 
   .header-img {
     width: 450px;
-    margin-left: 60px;
     display: block;
   }
 }
 
+@media (min-width: 1700px) {
+  .header-content {
+    font-weight: 400;
+    font-size: 19px;
+    margin-left: 280px;
+  }
+}
 
 @media only screen 
 and (min-device-width: 320px) 
@@ -284,18 +276,17 @@ and (max-device-width: 768px)
 and (-webkit-min-device-pixel-ratio: 2)  {
 
   .hero-section-bg {
-    height: 350px;
+    height: 400px;
   }
 
   .header-title {
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 60px;
     margin-left: 0px;
-    margin-top: 35px;
+    margin-top: 0px;
   }
 
   .header-content{
-    margin: auto;
     text-align: center;
   }
 }
