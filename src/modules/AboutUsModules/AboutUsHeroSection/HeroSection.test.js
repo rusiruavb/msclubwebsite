@@ -1,4 +1,4 @@
-/* global describe, test, document, expect */
+/* global describe, test, expect */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
@@ -11,7 +11,7 @@ describe('AboutUsModule - HeroSection.jsx', () => {
   });
 
   test('render with correct title', () => {
-    const titleText = 'About US';
+    const titleText = 'About Us';
     render(<HeroSection />);
     expect(screen.queryByText(titleText)).toBeInTheDocument();
   });
