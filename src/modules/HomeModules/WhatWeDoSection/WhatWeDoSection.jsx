@@ -3,8 +3,8 @@ import FlatVector from '../../../assets/flat-illustrations/boardpeople.png';
 import './WhatWeDoSection.css';
 
 const WhatWeDoSection = () => (
-  <section className="WhatWeDoSectionHome container container-fulid mt-5">
-    <h2 className="text-center">
+  <section className="WhatWeDoSectionHome container mt-5">
+    <h2 className="text-center what-we-do-header">
       <strong>What We Do</strong>
     </h2>
     <div className="container">
@@ -19,7 +19,7 @@ const WhatWeDoSection = () => (
             vehicula quam.
           </p>
         </div>
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
           <img alt="imageFlatVector" className="img-fluid d-none d-md-block" src={FlatVector} />
         </div>
       </div>
@@ -51,7 +51,7 @@ const WhatWeDoSection = () => (
             vehicula quam.
           </p>
         </div>
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
           <img alt="imageFlatVector" className="img-fluid d-none d-md-block" src={FlatVector} />
         </div>
       </div>
