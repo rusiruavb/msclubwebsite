@@ -5,19 +5,19 @@ import Events from '../pages/EventsPage/Events';
 import Home from '../pages/HomePage/Home';
 import Footer from '../component/common/footer/Footer';
 import ContactUs from '../pages/ContactUsPage/ContactUs';
+import Navbar from '../component/common/navbar/Navbar';
 
 const AppRoutes = () => (
-  <div>
-    <Router>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/about" component={AboutUs} exact />
-        <Route path="/events" component={Events} exact />
-        <Route path="/contact" component={ContactUs} exact />
-      </Switch>
-    </Router>
+  <Router>
+    <Navbar />
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route path="/about" component={AboutUs} exact />
+      <Route path="/events" component={Events} exact />
+      <Route path="/contact" component={ContactUs} exact />
+    </Switch>
     <Footer />
-  </div>
+  </Router>
 );
 
 export default AppRoutes;

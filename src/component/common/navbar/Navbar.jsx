@@ -3,8 +3,8 @@ import './Navbar.css';
 import MSCLUBLOGO from '../../../assets/images/logo/Ms-Club.svg';
 
 const Navbar = () => (
-  <div className="container">
-    <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+  <div>
+    <nav className="navbar navbar-expand-lg navbar-light bg">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <img src={MSCLUBLOGO} alt="MsClubLogo" className="img-logo" />

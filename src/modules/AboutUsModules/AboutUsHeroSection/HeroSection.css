@@ -233,7 +233,7 @@
     position: absolute;
     overflow: auto;
     width: 100vw;
-    height: 36.25rem;
+    height: 27.25rem;
     left: 0rem;
     top: 0rem;
     background: var(--light-background-color);
@@ -241,7 +241,7 @@
   }
 
   .overlay {
-    height: 38.78rem;
+    height: 30.78rem;
   }
 
   .header-title {
