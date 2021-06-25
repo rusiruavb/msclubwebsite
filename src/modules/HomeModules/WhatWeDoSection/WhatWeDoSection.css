@@ -1,3 +1,13 @@
 .WhatWeDoSectionHome {
   padding: 3%;
 }
+
+.what-we-do-header {
+  font-size: 50px;
+  margin-bottom: 90px;
+}
+
+.lead {
+  font-size: 28px;
+  font-weight: 500;
+}

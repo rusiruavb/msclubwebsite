@@ -1,5 +1,11 @@
 .UpcomingEventComponent {
-  padding: 3%;
+  width: 88vw;
+  display: block;
+  justify-content: center;
+}
+
+.upcomming-title {
+  font-size: 45px;;
 }
 
 .event-upcoming-btn {
@@ -16,10 +22,12 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .UpcomingEventComponentImg {
+  .upcomming-event-img {
     border-radius: 15px;
+    height: 100%;
   }
-  .UpcomingEventComponentCard {
+
+  .upcomming-event-card {
     border-radius: 15px;
     -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);

@@ -4,8 +4,6 @@
   --light-shadow-color: #6ec476;
 }
 
-/* Basic Styling */
-
 .fas {
   color: var(--light-icon-color);
 }
@@ -33,10 +31,7 @@
   -webkit-transition: box-shadow 0.2s ease-in;
 }
 
-/* Styling for breakpoints */
-
 @media (min-width: 768px) {
-  /* Device screen larger than 768px */
   .container {
     max-width: 880px;
   }
@@ -47,7 +42,6 @@
 }
 
 @media (min-width: 992px) {
-  /* Device screen larger than 992px */
   .container {
     max-width: 940px;
   }
@@ -58,7 +52,6 @@
 }
 
 @media (min-width: 1200px) {
-  /* Device screen larger than 1200px */
   .container {
     max-width: 1300px;
   }
@@ -69,7 +62,6 @@
 }
 
 @media (min-width: 1400px) {
-  /* Device screen larger than 1400px */
   .container {
     max-width: 1800px;
   }
