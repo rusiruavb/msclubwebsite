@@ -16,6 +16,11 @@
   color:  #000000;
 }
 
+.wrap{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
 .navbar {
   background:#F6F5FF;
   height: 90px;
