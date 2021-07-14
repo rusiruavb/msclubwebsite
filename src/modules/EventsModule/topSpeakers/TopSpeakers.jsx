@@ -13,8 +13,14 @@ const responsive = {
   600: {
     items: 2,
   },
-  1000: {
+  1400: {
     items: 4,
+  },
+  1100: {
+    items: 3,
+  },
+  1800: {
+    items: 5,
   },
 };
 let slider;

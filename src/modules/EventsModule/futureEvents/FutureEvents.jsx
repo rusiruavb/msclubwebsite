@@ -16,6 +16,15 @@ const responsive = {
   1000: {
     items: 3,
   },
+  1200: {
+    items: 3,
+  },
+  1400: {
+    items: 3,
+  },
+  1700: {
+    items: 4,
+  },
 };
 let slider;
 const slideNext = () => {
@@ -64,9 +73,8 @@ const FutureEvents = () => (
             key={event.id}
             image={event.image}
             title={event.title}
-            time={event.time}
-            month={event.month}
-            date={event.date}
+            datetime={event.datetime}
+            tags={event.tags}
           />
         ))}
       </OwlCarousel>
