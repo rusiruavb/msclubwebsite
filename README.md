@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+[![Firebase CD](https://github.com/ms-club-sliit/msclubwebsite/actions/workflows/firebase-deploy.yml/badge.svg)](https://github.com/ms-club-sliit/msclubwebsite/actions/workflows/firebase-deploy.yml)
+![Pull Requests](https://badgen.net/github/open-issues/ms-club-sliit/msclubwebsite)
+![Contributors](https://badgen.net/github/contributors/ms-club-sliit/msclubwebsite)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  MS Club of SLIIT - Website
+Your one-stop portal to all things regarding MS Club of SLIIT🌀  
+Read further to know how **you** can start contributing to MS Club! 
 
-## Available Scripts
+## Quick Links
+---
+- [Tech Stack](#tech-stack)
+- [How to contribute](#how-to-contribute)
+- [Learning Resources](#i-really-want-to-contribute-but-where-do-i-start)
 
-In the project directory, you can run:
+## [Tech Stack](#Tech-Stack)
+---
+### Front-End
+- HTML 
+- CSS
+- React.js
 
-### `npm start`
+<!-- Add system architecture -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## [How to contribute](#how-to)
+---
+1. Fork the repo on GitHub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Clone the project to your own machine.
 
-### `npm run build`
+```git clone https://github.com/<YOUR_USERNAME>/msclubwebsite.git```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Create a branch using the git checkout command.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`git checkout -b <your-new-branch-name>`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Stage your changes and commit with a meaningful commit message.
 
-### `npm run eject`
+``` 
+git add .
+git commit -m "<initial commit>" 
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Push your work back up to your fork.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`git push origin <add-your-branch-name>`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+6. Submit a Pull request so that we can review your changes. [Learn about creating a pull request.](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## [I really want to contribute but where do I start?](#resources) 
+---
+We got your back. Here are some **FREE** resources for you to strengthen your web development skills and start firing some commits 
 
-## Learn More
+**HTML / CSS / JS**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Web Development 101 by Microsoft Learn](https://docs.microsoft.com/en-us/learn/paths/web-development-101/)
+- [Responsive Web Design by freeCodecamp](https://www.freecodecamp.org/learn/responsive-web-design/)
+- [Learn Javascript for free by Scrimba](https://scrimba.com/learn/learnjavascript)
+- [HTML & CSS Crash Course by Scrimba](https://scrimba.com/learn/htmlcss)
+- [Learn Modern Javascript by freeCodeCamp + Scrimba](https://scrimba.com/learn/es6)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**React.js**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [React course by freeCodeCamp](https://www.freecodecamp.org/learn/front-end-libraries/#react)
+- [Learn React by Scrimba](https://scrimba.com/learn/learnreact)
 
-### Analyzing the Bundle Size
+## Contributors
+---
+<a href="https://github.com/ms-club-sliit/msclubwebsite/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ms-club-sliit/msclubwebsite" />
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
