@@ -7,13 +7,13 @@ Your one-stop portal to all things regarding MS Club of SLIIT🌀
 Read further to know how **you** can start contributing to MS Club! 
 
 ## Quick Links
----
+
 - [Tech Stack](#tech-stack)
 - [How to contribute](#how-to-contribute)
 - [Learning Resources](#i-really-want-to-contribute-but-where-do-i-start)
 
 ## [Tech Stack](#Tech-Stack)
----
+
 ### Front-End
 - HTML 
 - CSS
@@ -24,7 +24,7 @@ Read further to know how **you** can start contributing to MS Club!
 
 
 ## [How to contribute](#how-to)
----
+
 1. Fork the repo on GitHub.
 
 2. Clone the project to your own machine.
@@ -49,7 +49,7 @@ git commit -m "<initial commit>"
 6. Submit a Pull request so that we can review your changes. [Learn about creating a pull request.](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ## [I really want to contribute but where do I start?](#resources) 
----
+
 We got your back. Here are some **FREE** resources for you to strengthen your web development skills and start firing some commits 
 
 **HTML / CSS / JS**
@@ -67,7 +67,7 @@ We got your back. Here are some **FREE** resources for you to strengthen your we
 - [Learn React by Scrimba](https://scrimba.com/learn/learnreact)
 
 ## Contributors
----
+
 <a href="https://github.com/ms-club-sliit/msclubwebsite/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ms-club-sliit/msclubwebsite" />
 </a>
