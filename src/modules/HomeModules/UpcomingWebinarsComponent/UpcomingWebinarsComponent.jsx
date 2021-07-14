@@ -23,7 +23,7 @@ const UpcomingWebinarsComponent = () => (
             </button>
           </div>
 
-          <div className="col-lg-5 col-md-12 col-sm-12 upcomming-webinar-img-div d-none d-md-block">
+          <div className="col-lg-5 col-md-12 col-sm-12 upcomming-webinar-img-div d-none d-xl-block">
             <img alt="imageFlatVector" className="img-fluid upcomming-webinar-img" src={webinarEvents.data.image} />
           </div>
         </div>
