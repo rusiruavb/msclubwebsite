@@ -17,8 +17,8 @@ const AppRoutes = () => (
         <Route path="/events" component={Events} exact />
         <Route path="/contact" component={ContactUs} exact />
       </Switch>
+      <Footer />
     </Router>
-    <Footer />
   </div>
 );
 
