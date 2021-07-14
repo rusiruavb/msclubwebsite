@@ -3,8 +3,8 @@ import './UpcomingEventComponent.css';
 import upcomingEvents from './UpcomingEventData.json';
 
 const UpcomingEventComponent = () => (
-  <section className="UpcomingEventComponent container mt-5">
-    <h2 className="text-left upcomming-title">
+  <section className="UpcomingEventComponent container-fluid mt-5">
+    <h2 className="upcomming-title">
       <strong>Upcoming Event</strong>
     </h2>
     <div>
@@ -19,7 +19,7 @@ const UpcomingEventComponent = () => (
               <strong>{upcomingEvents.data.title}</strong>
             </h2>
             <p className="lead mt-3">{upcomingEvents.data.description}</p>
-            <button type="button" className="event-upcoming-btn mt-3">
+            <button type="button" className="btn btn-success btn-pill mt-3">
               Read More
             </button>
           </div>

@@ -46,14 +46,15 @@ const slideNextKeyBoard = (e) => {
 
 const FutureEvents = () => (
   <div className="past-event-container">
-    <h2>Future Events</h2>
+    <h1 className="event-header">Future Events</h1>
     <div className="nav-button-wrapper">
       <div className="view-more">View More</div>
-      <div className="owl-button-prev" onClick={slidePrev} onKeyDown={slidePrevKeyBoard} role="button" tabIndex={0}>
-        <i className="far fa-arrow-alt-circle-left" />
+      <div onClick={slidePrev} onKeyDown={slidePrevKeyBoard} role="button" tabIndex={0}>
+        <i className="far fa-arrow-alt-circle-left fa-lg nav-icon" />
       </div>
-      <div className="owl-button-next" onClick={slideNext} onKeyDown={slideNextKeyBoard} role="button" tabIndex={0}>
-        <i className="far fa-arrow-alt-circle-right" />
+      &nbsp;&nbsp;&nbsp;
+      <div onClick={slideNext} onKeyDown={slideNextKeyBoard} role="button" tabIndex={0}>
+        <i className="far fa-arrow-alt-circle-right fa-lg nav-icon" />
       </div>
     </div>
 

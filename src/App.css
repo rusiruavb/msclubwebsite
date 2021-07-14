@@ -50,3 +50,7 @@ body {
 .btn-success {
   background-color: var(--light-shadow-color);
 }
+
+.btn-pill {
+  border-radius: 20px;
+}

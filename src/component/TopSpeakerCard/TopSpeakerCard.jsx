@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './SpeakerCardStyle.css';
 
 const TopSpeakerCard = ({ image, title, description, urls }) => (
-  <div className="card top-speaker-card mb-5">
+  <div className="card top-speaker-card mb-5 mt-3">
     <div className="d-flex justify-content-center">
       <img src={image} className="top-speaker-img" alt="speaker" />
     </div>
