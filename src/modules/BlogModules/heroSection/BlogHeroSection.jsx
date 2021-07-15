@@ -9,7 +9,7 @@ const BLogHeroSection = () => (
       <div className="col-sm-12 col-md-6 col-lg-6 text-div">
         <div className="col-12">
           <p className="exploreText">
-            Explore <br /> Bogs
+            Explore <br /> Blogs
           </p>
         </div>
         <div className="col-12 event-search">
