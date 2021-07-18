@@ -16,7 +16,7 @@ const HomeHeroSection = () => (
             gap between an Undergraduate and an Industry Professional.
           </p>
         </div>
-        <button type="button" className="home-header-btn">
+        <button type="button" className="home-header-btn btn btn-success btn-pill">
           Join Now
         </button>
       </div>
