@@ -16,10 +16,12 @@ function Navbar() {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <div>
+    <div className="navbar-container">
       <nav
         className={
-          navbar ? 'navbar active navbar-expand-lg navbar-light bg' : 'navbar navbar-expand-lg navbar-light bg'
+          navbar
+            ? 'navbar fixed-top active navbar-expand-lg navbar-light bg'
+            : 'navbar fixed-top navbar-expand-lg navbar-light bg'
         }
       >
         <div className="container-fluid">

@@ -8,7 +8,10 @@ import './PastEventStyles.css';
 
 const responsive = {
   0: {
-    items: 1,
+    items: 1.3,
+  },
+  370: {
+    items: 1.3,
   },
   600: {
     items: 2,

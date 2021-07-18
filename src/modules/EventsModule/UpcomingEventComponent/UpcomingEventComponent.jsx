@@ -14,7 +14,7 @@ const UpcomingEventComponent = () => (
             <img alt="imageFlatVector" className="img-fluid upcomming-event-img" src={upcomingEvents.data.image} />
           </div>
 
-          <div className="col-lg-7 col-md-12 col-sm-12 p-4 upcomming-event-col">
+          <div className="col-lg-7 col-md-12 col-sm-12 p-5 upcomming-event-col">
             <h2>
               <strong>{upcomingEvents.data.title}</strong>
             </h2>
