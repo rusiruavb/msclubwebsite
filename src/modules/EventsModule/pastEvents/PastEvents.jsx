@@ -11,10 +11,19 @@ const responsive = {
     items: 1.3,
   },
   370: {
+    items: 1.2,
+  },
+  411: {
+    items: 1.3,
+  },
+  414: {
     items: 1.3,
   },
   600: {
     items: 2,
+  },
+  768: {
+    items: 2.25,
   },
   1000: {
     items: 3,
@@ -23,7 +32,7 @@ const responsive = {
     items: 3,
   },
   1400: {
-    items: 3,
+    items: 3.3,
   },
   1700: {
     items: 4,
