@@ -18,6 +18,7 @@ const BlogList = () => (
                 description={blog.description}
                 link={blog.link}
                 tags={blog.tags}
+                mediumProfileImg={blog.mediumProfileImg}
               />
             </div>
           ))}
