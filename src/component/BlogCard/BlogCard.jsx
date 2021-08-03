@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import './BlogCardStyle.css';
 import moment from 'moment';
 
-const BlogCard = ({ image, title, tags, datetime, description, link }) => (
-  <div className="event-card card mb-3 mt-3">
+const BlogCard = ({ image, title, tags, datetime, description, link, mediumProfileImg }) => (
+  <div className="blog-card card mb-3 mt-3">
     <div>
       <img className="img-fluid blog-card-img" src={image} alt="Card cap" />
     </div>
@@ -17,7 +17,14 @@ const BlogCard = ({ image, title, tags, datetime, description, link }) => (
           </span>
         ))}
       <div>
-        <h5 className="card-title">{title}</h5>
+        <div className="row blog-card-header-row">
+          <div className="col-md-1 col-sm-2 col-2 mt-2 mb-2 blog-card-header-col1">
+            <img className="img-fluid rounded-circle mediumProfileImg" src={mediumProfileImg} alt="mediumImg" />
+          </div>
+          <div className="col-md-10 col-sm-10 col-10 mt-1 blog-card-header-col2">
+            <h5 className="card-title text-left">{title}</h5>
+          </div>
+        </div>
         <div className="d-flex justify-content-left">
           <i className="fas fa-calendar-alt fa-lg mt-1" />
           <span className="badge rounded-pill event-date text-muted">{moment(datetime).format('lll')}</span>
@@ -43,6 +50,7 @@ BlogCard.propTypes = {
   datetime: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  mediumProfileImg: PropTypes.string.isRequired,
 };
 
 export default BlogCard;

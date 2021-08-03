@@ -7,7 +7,8 @@
         "title": "Kubernetes Up & Running",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi elementum at egestas rutrum commodo",
         "link": "https://senuravihanjayadeva.medium.com/create-a-rest-api-with-spring-boot-28482ed11f86",
-        "tags": ["kubernetes", "docker"]
+        "tags": ["kubernetes", "docker"],
+        "mediumProfileImg": "https://image.flaticon.com/icons/png/512/168/168724.png"
       },
       {
         "id": 2,
@@ -16,7 +17,8 @@
         "title": "Imagine Cup Awareness Session",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi elementum at egestas rutrum commodo",
         "link": "https://senuravihanjayadeva.medium.com/create-a-rest-api-with-spring-boot-28482ed11f86",
-        "tags": ["kubernetes", "docker"]
+        "tags": ["kubernetes", "docker"],
+        "mediumProfileImg": "https://image.flaticon.com/icons/png/512/168/168724.png"
       },
       {
         "id": 3,
@@ -25,7 +27,8 @@
         "title": "First Step into Azure IoT",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi elementum at egestas rutrum commodo",
         "link": "https://senuravihanjayadeva.medium.com/create-a-rest-api-with-spring-boot-28482ed11f86",
-        "tags": ["kubernetes", "docker"]
+        "tags": ["kubernetes", "docker"],
+        "mediumProfileImg": "https://image.flaticon.com/icons/png/512/168/168724.png"
       },
       {
         "id": 4,
@@ -34,7 +37,8 @@
         "title": "Cloud Skills Challange - Lauching Event",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi elementum at egestas rutrum commodo",
         "link": "https://senuravihanjayadeva.medium.com/create-a-rest-api-with-spring-boot-28482ed11f86",
-        "tags": ["kubernetes", "docker"]
+        "tags": ["kubernetes", "docker"],
+        "mediumProfileImg": "https://image.flaticon.com/icons/png/512/168/168724.png"
       },
       {
         "id": 5,
@@ -43,7 +47,8 @@
         "title": "Serveless Computing with Azure Functions",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi elementum at egestas rutrum commodo",
         "link": "https://senuravihanjayadeva.medium.com/create-a-rest-api-with-spring-boot-28482ed11f86",
-        "tags": ["kubernetes", "docker"]
+        "tags": ["kubernetes", "docker"],
+        "mediumProfileImg": "https://image.flaticon.com/icons/png/512/168/168724.png"
       }
     ]
   }

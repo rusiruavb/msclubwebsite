@@ -53,6 +53,7 @@ const BlogsComponent = () => (
             description={blog.description}
             link={blog.link}
             tags={blog.tags}
+            mediumProfileImg={blog.mediumProfileImg}
           />
         ))}
       </OwlCarousel>
