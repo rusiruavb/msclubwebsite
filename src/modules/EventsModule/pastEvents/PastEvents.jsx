@@ -8,16 +8,16 @@ import './PastEventStyles.css';
 
 const responsive = {
   0: {
-    items: 1.3,
+    items: 1,
   },
   370: {
-    items: 1.2,
+    items: 1,
   },
   411: {
-    items: 1.3,
+    items: 1,
   },
   414: {
-    items: 1.3,
+    items: 1,
   },
   600: {
     items: 2,
@@ -88,6 +88,7 @@ const PastEvents = () => (
             title={event.title}
             datetime={event.datetime}
             tags={event.tags}
+            description={event.description}
           />
         ))}
       </OwlCarousel>
