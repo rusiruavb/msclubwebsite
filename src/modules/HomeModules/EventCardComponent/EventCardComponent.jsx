@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './EventCardStyle.css';
 import moment from 'moment';
 
-const EventCardComponent = ({ image, title, description, tags, datetime }) => (
+const EventCardComponent = ({ image, title, description, tags, datetime, link }) => (
   <div className="event-card card mb-3 mt-3">
     <div>
       <img className="past-event-img" src={image} alt="Card cap" />
@@ -25,9 +25,11 @@ const EventCardComponent = ({ image, title, description, tags, datetime }) => (
         <span className="badge rounded-pill event-date text-dark">{moment(datetime).format('lll')}</span>
       </div>
       <div className="d-flex justify-content-center">
-        <button className="btn btn-success event-btn btn-sm" type="button">
-          MORE INFO
-        </button>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-success event-btn btn-sm" type="button">
+            MORE INFO
+          </button>
+        </a>
       </div>
     </div>
   </div>
@@ -39,6 +41,7 @@ EventCardComponent.propTypes = {
   description: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
   datetime: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default EventCardComponent;

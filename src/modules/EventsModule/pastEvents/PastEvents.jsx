@@ -89,6 +89,7 @@ const PastEvents = () => (
             description={event.description}
             datetime={event.datetime}
             tags={event.tags}
+            link={event.link}
           />
         ))}
       </OwlCarousel>

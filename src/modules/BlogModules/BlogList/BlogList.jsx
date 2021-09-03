@@ -19,7 +19,7 @@ const BlogList = () => {
   return (
     <div className="blogListPolygonDiv">
       <div className="past-event-container">
-        <h1 className="event-header">Blogs List</h1>
+        <h1 className="event-header">Blogs</h1>
         <div className="container-fluid">
           <div className="row">
             {posts.map((post) => (

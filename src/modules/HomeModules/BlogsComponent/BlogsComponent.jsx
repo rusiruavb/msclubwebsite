@@ -54,7 +54,9 @@ const BlogsComponent = () => {
     <div className="past-event-container pt-5">
       {blogs && blogs.length > 0 ? (
         <div>
-          <h1 className="event-header">Blogs</h1>
+          <h2 className="text-left upcomming-title">
+            <strong>Blogs</strong>
+          </h2>
           <div className="container-fluid">
             <OwlCarousel className="owl-theme" dots={false} loop margin={70} responsive={responsive} autoPlay={1000}>
               {blogs.map((blog) => (
