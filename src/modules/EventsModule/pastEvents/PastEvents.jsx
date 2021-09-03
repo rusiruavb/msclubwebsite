@@ -86,6 +86,7 @@ const PastEvents = () => (
             key={event.id}
             image={event.image}
             title={event.title}
+            description={event.description}
             datetime={event.datetime}
             tags={event.tags}
           />
