@@ -39,7 +39,7 @@ const responsive = {
 };
 
 const BlogsComponent = () => {
-  const [blogs, setblogs] = useState([]);
+  const [blogs, setblogs] = useState(null);
 
   useEffect(() => {
     blogApi
@@ -52,31 +52,28 @@ const BlogsComponent = () => {
   }, []);
   return (
     <div className="past-event-container pt-5">
-      <h1 className="event-header">Blogs</h1>
-
-      <div className="container-fluid">
-        <OwlCarousel
-          className="owl-theme"
-          dots={false}
-          loop
-          margin={70}
-          responsive={responsive}
-          lazyLoad
-          autoPlay={1000}
-        >
-          {blogs.map((blog) => (
-            <div key={blog}>
-              <BlogCard
-                image={blog.thumbnail}
-                title={blog.title}
-                datetime={blog.pubDate}
-                link={blog.link}
-                tags={blog.categories}
-              />
-            </div>
-          ))}
-        </OwlCarousel>
-      </div>
+      {blogs && blogs.length > 0 ? (
+        <div>
+          <h1 className="event-header">Blogs</h1>
+          <div className="container-fluid">
+            <OwlCarousel className="owl-theme" dots={false} loop margin={70} responsive={responsive} autoPlay={1000}>
+              {blogs.map((blog) => (
+                <div key={blog}>
+                  <BlogCard
+                    image={blog.thumbnail}
+                    title={blog.title}
+                    datetime={blog.pubDate}
+                    link={blog.link}
+                    tags={blog.categories}
+                  />
+                </div>
+              ))}
+            </OwlCarousel>
+          </div>
+        </div>
+      ) : (
+        ''
+      )}
     </div>
   );
 };
