@@ -7,58 +7,94 @@
   background: var(--badge-info-color);
 }
 
+.card:hover {
+  box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
+}
+
 @media (min-width: 0px) {
-  .event-card {
-    border-radius: 8px;
-  }
-
-  .tags {
-    display: block;
-    height: 3vh;
-    font-size: 15px;
-  }
-
-  .event-card-body {
-    margin-top: 0px;
-    padding: 20px;
-  }
-
-  .card-img-top {
-    max-height: 45vh;
-    min-height: 45vh;
-    object-position: 100% 0%;
-    object-fit: cover;
-    border-radius: 8px 8px 0px 0px;
-  }
-
-  .body-content {
-    text-align: center;
-  }
-
-  .past-event-img {
-    position: absolute;
+  .ms-event-card-img {
     border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
   }
 
-  .card:hover {
-    box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
+  .ms-event-card-body {
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
-  .event-title {
-    margin-top: 20px;
-    font-size: 16px;
-    font-family: 'Roboto';
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    height: 5.5vh;
+  .ms-event-card-header-row {
+    height: 120px;
+    padding-left: 5px;
   }
 
-  .description {
-    text-align: center;
+  .ms-event-tags {
+    height: 30px;
+  }
+
+  .ms-event-description {
+    text-align: left;
     font-size: 15px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .ms-event-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+  }
+
+  .ms-event-card {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 10px;
+    background: var(--light);
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .ms-event-btn {
+    font-family: 'Roboto';
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .ms-event-card-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .ms-event-card-body {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .ms-event-card-header-row {
+    height: 120px;
+    padding-left: 5px;
+  }
+
+  .ms-event-tags {
+    height: 30px;
+  }
+
+  .ms-event-description {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Roboto';
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -66,11 +102,193 @@
     -webkit-box-orient: vertical;
   }
 
-  .event-date {
+  .ms-event-card-title {
     font-size: 16px;
+    font-weight: 600;
+    height: 35px;
   }
 
-  .event-btn {
+  .ms-event-card {
+    width: 320px;
+    height: 440px;
+    border-radius: 10px 10px;
+    background: var(--light);
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .ms-event-btn {
+    font-family: 'Roboto';
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ms-event-card-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .ms-event-card-body {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .ms-event-card-header-row {
+    height: 120px;
+    padding-left: 5px;
+  }
+
+  .ms-event-tags {
+    height: 30px;
+  }
+
+  .ms-event-description {
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .ms-event-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+  }
+
+  .ms-event-card {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 10px;
+    background: var(--light);
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .ms-event-btn {
+    font-family: 'Roboto';
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ms-event-card-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .ms-event-card-body {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .ms-event-card-header-row {
+    height: 120px;
+    padding-left: 5px;
+  }
+
+  .ms-event-tags {
+    height: 30px;
+  }
+
+  .ms-event-description {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Roboto';
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .ms-event-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+  }
+
+  .ms-event-card {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 10px;
+    background: var(--light);
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .ms-event-btn {
+    font-family: 'Roboto';
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ms-event-card-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .ms-event-card-body {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .ms-event-card-header-row {
+    height: 120px;
+    padding-left: 5px;
+  }
+
+  .ms-event-tags {
+    height: 30px;
+  }
+
+  .ms-event-description {
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .ms-event-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    height: 35px;
+  }
+
+  .ms-event-card {
+    width: 350px;
+    height: 440px;
+    border-radius: 10px 10px;
+    background: var(--light);
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .ms-event-btn {
     font-family: 'Roboto';
     border-radius: 20px;
     margin-top: 5px;
@@ -79,54 +297,32 @@
 }
 
 @media (min-width: 1400px) {
-  .event-card {
-    border-radius: 8px;
-  }
-
-  .tags {
-    display: block;
-    height: 3vh;
-    font-size: 15px;
-  }
-
-  .event-card-body {
-    margin-top: 0px;
-    padding: 20px;
-  }
-
-  .card-img-top {
-    max-height: 35vh;
-    min-height: 35vh;
-    object-position: 100% 0%;
-    object-fit: cover;
-    border-radius: 8px 8px 0px 0px;
-  }
-
-  .body-content {
-    text-align: center;
-  }
-
-  .past-event-img {
-    position: absolute;
+  .ms-event-card-img {
     border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
   }
 
-  .card:hover {
-    box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
+  .ms-event-card-body {
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
-  .event-title {
-    margin-top: 20px;
-    font-size: 16px;
-    font-family: 'Roboto';
-    display: block;
-    height: 5vh;
+  .ms-event-card-header-row {
+    height: 120px;
+    padding-left: 5px;
   }
 
-  .description {
-    text-align: center;
+  .ms-event-tags {
+    height: 30px;
+  }
+
+  .ms-event-description {
+    text-align: left;
     font-size: 15px;
+    font-family: 'Roboto';
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -134,11 +330,22 @@
     -webkit-box-orient: vertical;
   }
 
-  .event-date {
+  .ms-event-card-title {
     font-size: 16px;
+    font-weight: 600;
+    height: 35px;
   }
 
-  .event-btn {
+  .ms-event-card {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px 10px;
+    background: var(--light);
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .ms-event-btn {
     font-family: 'Roboto';
     border-radius: 20px;
     margin-top: 5px;

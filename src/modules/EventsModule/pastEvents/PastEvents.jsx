@@ -8,16 +8,16 @@ import './PastEventStyles.css';
 
 const responsive = {
   0: {
-    items: 1,
+    items: 1.3,
   },
   370: {
-    items: 1,
+    items: 1.2,
   },
   411: {
-    items: 1,
+    items: 1.3,
   },
   414: {
-    items: 1,
+    items: 1.3,
   },
   600: {
     items: 2,
@@ -35,7 +35,10 @@ const responsive = {
     items: 3.3,
   },
   1700: {
-    items: 4,
+    items: 4.5,
+  },
+  2000: {
+    items: 5,
   },
 };
 let slider;
